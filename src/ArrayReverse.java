@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ArrayReverse {
   public static void main(String[] args) throws Exception {
     int[] arr = { 1, 2, 3, 4, 5, 6 };
@@ -8,8 +10,6 @@ public class ArrayReverse {
       arr[j] = temp;
     }
 
-    for (int i = 0; i < arr.length; i++) {
-      System.out.print(arr[i] + (i == arr.length - 1 ? "" : ", "));
-    }
+    System.out.println(Arrays.toString(arr));
   }
 }

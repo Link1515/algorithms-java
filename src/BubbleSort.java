@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class BubbleSort {
   public static void main(String[] args) throws Exception {
     int[] arr = { 2, 34, 22, 23, 99, 34, 55 };
@@ -20,13 +22,6 @@ public class BubbleSort {
       }
     }
 
-    printArr(arr);
-  }
-
-  private static void printArr(int[] arr) {
-    for (int i = 0; i < arr.length; i++) {
-      System.out.print(arr[i] + (i == arr.length - 1 ? "\n" : ", "));
-    }
-
+    System.out.println(Arrays.toString(arr));
   }
 }

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// 陣列持續切半，直到只剩一個元素，隨後進行合併
 public class MergeSort {
 
   public static void main(String[] args) {

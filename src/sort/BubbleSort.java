@@ -2,6 +2,7 @@ package sort;
 
 import java.util.Arrays;
 
+// 遍歷時持續將較大值往後放，最後最大值被移到最後
 public class BubbleSort {
 
   public static void main(String[] args) throws Exception {
